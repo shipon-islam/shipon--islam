@@ -1,0 +1,113 @@
+.shipon h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.sec {
+    margin-top: 100px;
+}
+
+#container ul {
+    background-color: #ddd;
+    width: 391px;
+}
+
+#container {
+    background: #ddd;
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    border: tomato solid 2px;
+}
+
+#container li {
+    padding-top: 20px;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-weight: bolder;
+    position: relative;
+    padding-bottom: 20px;
+    color: black;
+}
+
+#container li::before {
+    content: '';
+    position: absolute;
+    background-color: lightgreen;
+    width: 200px;
+    height: 16px;
+    border-radius: 1000px;
+    top: 40px;
+    left: 0;
+}
+
+#container li::after {
+    content: '';
+    position: absolute;
+    background-color: green;
+    width: 0px;
+    height: 16px;
+    border-radius: 1000px;
+    top: 40px;
+    left: 0;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: forwad;
+}
+
+#container .html::after {
+    animation-name: html;
+}
+
+@keyframes html {
+    to {
+        width: 55%;
+        background: red;
+    }
+}
+
+#container .css::after {
+    animation-name: css;
+}
+
+@keyframes css {
+    to {
+        width: 55%;
+        background: yellow;
+    }
+}
+
+#container .js::after {
+    animation-name: js;
+}
+
+@keyframes js {
+    to {
+        width: 55%;
+        background: tomato;
+    }
+}
+
+#container .boostsrap::after {
+    animation-name: boostsrap;
+}
+
+@keyframes boostsrap {
+    to {
+        width: 55%;
+        background: pink;
+    }
+}
+
+#container .java::after {
+    animation-name: java;
+}
+
+@keyframes java {
+    to {
+        width: 55%;
+        background: skyblue;
+    }
+}

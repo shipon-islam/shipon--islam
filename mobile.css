@@ -1,0 +1,70 @@
+    @media screen and (max-width:600px) {
+        .nav-bar ul li {
+            display: block;
+            padding: 9px 10px;
+            margin: 8px 10px;
+            background-color: red;
+            border-radius: 10px;
+        }
+        .container-icon h1 {
+            font-size: 33px;
+            padding-top: 10px;
+        }
+        .container-icon h1::first-letter {
+            font-size: 54px;
+            color: red;
+        }
+        #top-header ul {
+            padding: 15px 0px;
+            width: 100%;
+        }
+        .nav-bar ul li a:hover {
+            color: white;
+        }
+        .nav-bar ul li:hover {
+            background-color: rgba(0, 0, 0, 0.479);
+        }
+        .container-main {
+            width: 100%;
+        }
+        .container-main img {
+            width: 100%;
+        }
+        .title {
+            width: 90%;
+            padding: 36px;
+        }
+        .title h1 {
+            font-size: 37px;
+            margin-top: 9px;
+            text-align: center;
+        }
+        .title p {
+            text-align: center;
+        }
+        .button {
+            right: 14px;
+            top: 67px;
+        }
+        .form-header {
+            width: 100%;
+        }
+        .container-icon {
+            width: 100%;
+            text-align: center;
+        }
+        .social-icon {
+            width: 100%;
+        }
+        .social-icon ul {
+            text-align: center;
+            padding: 40px 0px;
+        }
+        .social-icon ul li {
+            padding: 5px 10px;
+        }
+        .container-header {
+            width: 52%;
+            padding-top: 79px;
+        }
+    }
